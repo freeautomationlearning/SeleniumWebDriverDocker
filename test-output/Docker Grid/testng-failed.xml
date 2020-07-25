@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Docker Grid]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="Browsers" value="chrome"/>
+  <test name="Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="seldocker.GridTest">
+        <methods>
+          <include name="getTitle"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- seldocker.GridTest -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Docker Grid] -->

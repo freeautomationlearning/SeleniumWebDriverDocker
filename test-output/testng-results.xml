@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Docker Grid" duration-ms="15447" started-at="2020-06-17T06:30:40Z" finished-at="2020-06-17T06:30:55Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="7917" started-at="2020-06-17T06:30:40Z" finished-at="2020-06-17T06:30:48Z">
+      <class name="seldocker.GridTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:seldocker.GridTest@14acaea5]" name="setup" is-config="true" duration-ms="7580" started-at="2020-06-17T12:00:40Z" finished-at="2020-06-17T12:00:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:seldocker.GridTest@14acaea5]" name="getTitle" duration-ms="136" started-at="2020-06-17T12:00:47Z" finished-at="2020-06-17T12:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seldocker.GridTest@14acaea5]" name="tearDown" is-config="true" duration-ms="178" started-at="2020-06-17T12:00:48Z" finished-at="2020-06-17T12:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seldocker.GridTest -->
+    </test> <!-- Chrome -->
+    <test name="Firefox" duration-ms="15447" started-at="2020-06-17T06:30:40Z" finished-at="2020-06-17T06:30:55Z">
+      <class name="seldocker.GridTest">
+        <test-method status="PASS" signature="startContainer()[pri:0, instance:seldocker.GridTest@5e3a8624]" name="startContainer" is-config="true" duration-ms="15925" started-at="2020-06-17T12:00:24Z" finished-at="2020-06-17T12:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startContainer -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:seldocker.GridTest@5e3a8624]" name="setup" is-config="true" duration-ms="13425" started-at="2020-06-17T12:00:40Z" finished-at="2020-06-17T12:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:seldocker.GridTest@5e3a8624]" name="getTitle" duration-ms="50" started-at="2020-06-17T12:00:53Z" finished-at="2020-06-17T12:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seldocker.GridTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="1960" started-at="2020-06-17T12:00:53Z" finished-at="2020-06-17T12:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stopContainer()[pri:0, instance:seldocker.GridTest@5e3a8624]" name="stopContainer" is-config="true" duration-ms="7871" started-at="2020-06-17T12:00:55Z" finished-at="2020-06-17T12:01:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopContainer -->
+      </class> <!-- seldocker.GridTest -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Docker Grid -->
+</testng-results>
